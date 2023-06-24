@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name=  "select_country">
+    <item>"egypt"</item>
+        <item>"canada"</item>
+        <item>"germany"</item>
+        <item>"france"</item>
+        <item>"argentina"</item>
+        <item>"Brazil"</item>
+        <item>"Colombia"</item>
+        <item>"Algeria"</item>
+        <item>"Brazil"</item>
+        <item>"Albania"</item>
+        v
+    </string-array>
+</resources>

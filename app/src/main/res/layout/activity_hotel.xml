@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hotel"
+    tools:context=".hotel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#201C1C"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="select hotel name or  destination"
+            android:inputType="textPersonName"
+            android:text="select hotel or destination "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/select"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:hint="write number of guests"
+            android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/clicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="130dp"
+            android:backgroundTint="#8DF6F6F6"
+            android:text="show"
+            android:textColor="#000000"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            app:iconTint="#F4F4F4"
+            app:rippleColor="#FDFDFD" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
